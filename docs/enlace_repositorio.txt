@@ -1,0 +1,12 @@
+Repositorio del proyecto:
+
+https://github.com/ANDERBNOTE/JORGE_BENITEZ_AA5_EV01.git
+
+Evidencia:
+GA7-220501096-AA5-EV01 diseño y desarrollo de servicios web - caso
+
+Aprendiz:
+Jorge Andres Benitez Vallejo
+
+Carpeta del proyecto:
+JORGE_BENITEZ_AA5_EV01
