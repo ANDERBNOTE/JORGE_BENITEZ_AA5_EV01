@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS servicios_web_ga7
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+USE servicios_web_ga7;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    correo VARCHAR(150) NOT NULL UNIQUE,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    contrasena VARCHAR(255) NOT NULL,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
